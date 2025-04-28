@@ -163,7 +163,7 @@ def run_web_interface(host: str = "0.0.0.0", port: int = 9000):
 def create_template_files():
     """Создание базовых файлов шаблонов и статики, если их нет"""
     # Создаем CSS файл
-    css_path = Path("static/css/style.css")
+    css_path = Path("../static/css/style.css")
     if not css_path.exists():
         css_path.parent.mkdir(parents=True, exist_ok=True)
         with open(css_path, "w") as f:
