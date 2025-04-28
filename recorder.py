@@ -8,7 +8,7 @@ import threading
 from datetime import datetime
 from typing import Optional, Dict, Tuple
 from config_schema import BitrateMode
-from av import AVError, FFmpegError, HTTPNotFoundError, PermissionError, InvalidDataError
+from av.error import AVError, FFmpegError, HTTPNotFoundError, PermissionError, InvalidDataError
 
 logger = logging.getLogger(__name__)
 
