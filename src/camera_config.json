@@ -1,0 +1,156 @@
+[
+  {
+    "rtsp_url": "rtsp://admin:12345@172.16.60.60:554/live/main",
+    "camera_name": "camera_104_60",
+    "stream_priority": "archive",
+    "rtsp_transport": "udp",
+    "bitrate_mode": "dynamic",
+    "initial_bitrate": 4000,
+    "timeout": 15,
+    "segment_duration": 300,
+    "archive_dir": "archive"
+  },
+  {
+    "rtsp_url": "rtsp://admin:12345@172.16.104.61:554/live/main",
+    "camera_name": "camera_104_61",
+    "stream_priority": "archive",
+    "rtsp_transport": "udp",
+    "bitrate_mode": "variable",
+    "initial_bitrate": 3000,
+    "timeout": 10,
+    "segment_duration": 600,
+    "archive_dir": "archive"
+  },
+  {
+    "rtsp_url": "rtsp://admin:12345@172.16.104.62:554/live/main",
+    "camera_name": "camera_104_62",
+    "stream_priority": "archive",
+    "rtsp_transport": "udp",
+    "bitrate_mode": "variable",
+    "initial_bitrate": 3000,
+    "timeout": 10,
+    "segment_duration": 600,
+    "archive_dir": "archive"
+  },
+  {
+    "rtsp_url": "rtsp://admin:12345@172.16.104.63:554/live/main",
+    "camera_name": "camera_104_63",
+    "stream_priority": "archive",
+    "rtsp_transport": "udp",
+    "bitrate_mode": "variable",
+    "initial_bitrate": 3000,
+    "timeout": 10,
+    "segment_duration": 600,
+    "archive_dir": "archive"
+  },
+  {
+    "rtsp_url": "rtsp://admin:12345@172.16.104.64:554/live/main",
+    "camera_name": "camera_104_64",
+    "stream_priority": "archive",
+    "rtsp_transport": "udp",
+    "bitrate_mode": "variable",
+    "initial_bitrate": 3000,
+    "timeout": 10,
+    "segment_duration": 600,
+    "archive_dir": "archive"
+  },
+  {
+    "rtsp_url": "rtsp://admin:12345@172.16.104.65:554/live/main",
+    "camera_name": "camera_104_65",
+    "stream_priority": "archive",
+    "rtsp_transport": "udp",
+    "bitrate_mode": "variable",
+    "initial_bitrate": 3000,
+    "timeout": 10,
+    "segment_duration": 600,
+    "archive_dir": "archive"
+  },
+  {
+    "rtsp_url": "rtsp://admin:12345@172.16.104.66:554/live/main",
+    "camera_name": "camera_104_66",
+    "stream_priority": "archive",
+    "rtsp_transport": "udp",
+    "bitrate_mode": "variable",
+    "initial_bitrate": 3000,
+    "timeout": 10,
+    "segment_duration": 600,
+    "archive_dir": "archive"
+  },
+  {
+    "rtsp_url": "rtsp://admin:12345@172.16.104.67:554/live/main",
+    "camera_name": "camera_104_67",
+    "stream_priority": "archive",
+    "rtsp_transport": "udp",
+    "bitrate_mode": "variable",
+    "initial_bitrate": 3000,
+    "timeout": 10,
+    "segment_duration": 600,
+    "archive_dir": "archive"
+  },
+  {
+    "rtsp_url": "rtsp://admin:12345@172.16.104.68:554/live/main",
+    "camera_name": "camera_104_68",
+    "stream_priority": "archive",
+    "rtsp_transport": "udp",
+    "bitrate_mode": "variable",
+    "initial_bitrate": 3000,
+    "timeout": 10,
+    "segment_duration": 600,
+    "archive_dir": "archive"
+  },
+  {
+    "rtsp_url": "rtsp://admin:12345@172.16.104.69:554/live/main",
+    "camera_name": "camera_104_69",
+    "stream_priority": "archive",
+    "rtsp_transport": "udp",
+    "bitrate_mode": "variable",
+    "initial_bitrate": 3000,
+    "timeout": 10,
+    "segment_duration": 600,
+    "archive_dir": "archive"
+  },
+  {
+    "rtsp_url": "rtsp://admin:12345@172.16.104.70:554/live/main",
+    "camera_name": "camera_104_70",
+    "stream_priority": "archive",
+    "rtsp_transport": "udp",
+    "bitrate_mode": "variable",
+    "initial_bitrate": 3000,
+    "timeout": 10,
+    "segment_duration": 600,
+    "archive_dir": "archive"
+  },
+  {
+    "rtsp_url": "rtsp://admin:12345@172.16.104.71:554/live/main",
+    "camera_name": "camera_104_71",
+    "stream_priority": "archive",
+    "rtsp_transport": "udp",
+    "bitrate_mode": "variable",
+    "initial_bitrate": 3000,
+    "timeout": 10,
+    "segment_duration": 600,
+    "archive_dir": "archive"
+  },
+  {
+    "rtsp_url": "rtsp://admin:12345@172.16.104.72:554/live/main",
+    "camera_name": "camera_104_72",
+    "stream_priority": "archive",
+    "rtsp_transport": "udp",
+    "bitrate_mode": "variable",
+    "initial_bitrate": 3000,
+    "timeout": 10,
+    "segment_duration": 600,
+    "archive_dir": "archive"
+  },
+  {
+    "rtsp_url": "rtsp://admin:12345@172.16.104.73:554/live/main",
+    "camera_name": "camera_104_73",
+    "stream_priority": "archive",
+    "rtsp_transport": "udp",
+    "bitrate_mode": "variable",
+    "initial_bitrate": 3000,
+    "timeout": 10,
+    "segment_duration": 600,
+    "archive_dir": "archive"
+  }
+]

@@ -1,0 +1,2 @@
+fastapi uvicorn jinja2 python-multipart
+fastapi uvicorn jinja2 python-multipart av numpy psutil

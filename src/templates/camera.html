@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ camera.name }} - Video Surveillance</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>{{ camera.name }}</h1>
+        <a href="/" class="btn-back">Back to Dashboard</a>
+    </header>
+
+    <main class="camera-detail">
+        <div class="camera-view">
+            <img src="/api/camera/{{ camera.name }}/stream" alt="Live Stream">
+        </div>
+
+        <div class="camera-controls">
+            <button class="btn-action" data-action="start" data-camera="{{ camera.name }}">
+                {{ "Restart" if camera.status == "running" else "Start" }}
+            </button>
+            <button class="btn-action" data-action="snapshot" data-camera="{{ camera.name }}">
+                Take Snapshot
+            </button>
+        </div>
+
+        <div class="camera-info">
+            <h3>Camera Information</h3>
+            <p><strong>Status:</strong> <span class="status-{{ camera.status }}">{{ camera.status }}</span></p>
+            <p><strong>RTSP URL:</strong> {{ camera.rtsp_url }}</p>
+        </div>
+    </main>
+
+    <script src="/static/js/camera.js"></script>
+</body>
+</html>

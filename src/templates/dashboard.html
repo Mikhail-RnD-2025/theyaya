@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Surveillance System</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Video Surveillance System</h1>
+        <div class="system-status">
+            Status: <span class="status-{{ system_status }}">{{ system_status }}</span>
+            <button id="toggle-system" class="btn-{{ system_status }}">
+                {{ "Stop" if system_status == "running" else "Start" }} System
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="camera-grid">
+            {% for camera in cameras %}
+            <div class="camera-card">
+                <h2>{{ camera.name }}</h2>
+                <div class="camera-status status-{{ camera.status }}">
+                    {{ camera.status }}
+                </div>
+                <div class="camera-preview" id="preview-{{ camera.name }}">
+                    <img src="/static/img/camera-placeholder.jpg" alt="{{ camera.name }}">
+                </div>
+                <div class="camera-actions">
+                    <button class="btn-start" data-camera="{{ camera.name }}">
+                        {{ "Restart" if camera.status == "running" else "Start" }}
+                    </button>
+                    <a href="/camera/{{ camera.name }}" class="btn-view">View Details</a>
+                </div>
+                <div class="camera-info">
+                    <p>Last update: {{ camera.last_update }}</p>
+                    <p>Frames processed: {{ camera.frames_processed }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </section>
+    </main>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
